@@ -14,8 +14,8 @@ using namespace std;
 int main() {
 	cout << "here we go!" << endl;
 	int i;
-	for (i = 256; i > 31; i - 4) {
+	for (i = 256; i > 31; i=i- 4) {
 		cout << i << endl;
 	}
-
+	system("pause");
 }
